@@ -1,5 +1,6 @@
-import Card from '../components/Card'
-import './App.css'
+import Counter from '../components/Counter';
+import Card from '../components/Card';
+import './App.css';
 
 function App() {
     const items = ['React','Javascript','Vite','Hecho Jt'];
@@ -7,12 +8,14 @@ function App() {
 
   return (
     <section>
+      <Counter/>
+
       <h1>Hola</h1>
       <Card title="My Card one" description="The Card of course top"/>
       <Card title="My Card two" description="The Card of course favorite"/>
       <Card title="My Card three" description="The Card of course number one"/>
 
-
+      
       <ul>
         {
           items.map((item,index) => (
