@@ -1,3 +1,5 @@
+import CounterWithEffect from '../components/CounterWithEffect';
+import NameForm from '../components/NameForm';
 import ToggleButton  from '../components/ToggleButton';
 import Counter from '../components/Counter';
 import Card from '../components/Card';
@@ -10,21 +12,28 @@ function App() {
   return (
     <section>
 
+      <h2>Counter with effect</h2>
+      {/* component CounterWithEffect */}
+      <CounterWithEffect/>
+
+      <h2>Name Form</h2>
+      {/* component NameForm  */}
+      <NameForm/>
+
       {/* component ToggleButton  */}
       <ToggleButton/>
 
       {/* component Counter */}
       <Counter/>
       
-      
-      <h1>Hola</h1>
 
+
+      <h1>Hola</h1>
       {/* component Cards */}
       <Card title="My Card one" description="The Card of course top"/>
       <Card title="My Card two" description="The Card of course favorite"/>
       <Card title="My Card three" description="The Card of course number one"/>
 
-      
       <ul>
         {
           items.map((item,index) => (
@@ -32,8 +41,11 @@ function App() {
           ))
         }
       </ul>
+
     </section>
+
   );
+
 }
 
 export default App
