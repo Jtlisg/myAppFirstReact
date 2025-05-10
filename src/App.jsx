@@ -1,3 +1,4 @@
+import Button  from '../components/Button';
 import CounterWithEffect from '../components/CounterWithEffect';
 import NameForm from '../components/NameForm';
 import ToggleButton  from '../components/ToggleButton';
@@ -11,6 +12,10 @@ function App() {
 
   return (
     <section>
+
+      {/* usando el button con styled */}
+      <Button gray>Gray</Button>
+      <Button blue>Blue</Button>
 
       <h2>Counter with effect</h2>
       {/* component CounterWithEffect */}
