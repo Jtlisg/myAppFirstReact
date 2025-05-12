@@ -1,3 +1,4 @@
+import StaticComponent from '../components/StaticComponent';
 import Button  from '../components/Button';
 import CounterWithEffect from '../components/CounterWithEffect';
 import NameForm from '../components/NameForm';
@@ -12,6 +13,9 @@ function App() {
 
   return (
     <section>
+
+      {/* usando el componente estatico */}
+      <StaticComponent></StaticComponent>
 
       {/* usando el button con styled */}
       <Button gray>Gray</Button>
