@@ -1,4 +1,4 @@
-
+import UserListWithLoanding from '../components/UserListWithLoanding';
 import UserList from '../components/UserList';
 import StaticComponent from '../components/StaticComponent';
 import Button  from '../components/Button';
@@ -15,9 +15,12 @@ function App() {
 
   return (
     <section>
+      
+      <UserListWithLoanding></UserListWithLoanding>
 
       {/* usando el componente userList */}
-      <UserList></UserList>
+      {/* <UserList></UserList> */}
+      
 
       {/* usando el componente estatico */}
       <StaticComponent></StaticComponent>
