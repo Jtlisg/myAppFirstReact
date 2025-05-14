@@ -1,3 +1,5 @@
+
+import UserList from '../components/UserList';
 import StaticComponent from '../components/StaticComponent';
 import Button  from '../components/Button';
 import CounterWithEffect from '../components/CounterWithEffect';
@@ -13,6 +15,9 @@ function App() {
 
   return (
     <section>
+
+      {/* usando el componente userList */}
+      <UserList></UserList>
 
       {/* usando el componente estatico */}
       <StaticComponent></StaticComponent>
