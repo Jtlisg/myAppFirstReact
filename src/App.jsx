@@ -1,3 +1,4 @@
+import SearchPost from '../components/SearchPost';
 import UserListWithLoanding from '../components/UserListWithLoanding';
 import UserList from '../components/UserList';
 import StaticComponent from '../components/StaticComponent';
@@ -15,6 +16,9 @@ function App() {
 
   return (
     <section>
+      
+      {/* componente buscador de post*/}
+      <SearchPost></SearchPost>
       
       <UserListWithLoanding></UserListWithLoanding>
 
